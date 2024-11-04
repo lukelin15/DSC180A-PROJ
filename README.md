@@ -4,7 +4,7 @@ This project evaluates various LLAMA models using different prompting methods. T
 
 ## Requirements
 
-- Python 3.x
+- Python 3.10+
 - OpenAI Python package
 - Matplotlib
 - dotenv (for loading environment variables)
