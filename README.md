@@ -22,6 +22,8 @@ This project evaluates various LLAMA models using different prompting methods. T
 ```
 3. Create a .env file in the root directory and add your API key:
 
+4. Unzip the NYT zipped dataset
+
 ## Configuration
 Edit the `llm_config.json` file to modify the models and prompting methods used in the evaluation.
 
