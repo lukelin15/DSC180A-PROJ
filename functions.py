@@ -23,7 +23,7 @@ def load_data(dataset_name):
     data_by_class (dict): A dictionary with class names as keys and a list of texts as values
     """
     data_by_class = {}
-    if dataset_name == 'nyt':
+    if dataset_name == 'nyt_data':
         # Load NYT data
         with open('Data/nyt_data/phrase_text.txt', 'r', encoding='utf-8') as f:
             data = [line.strip() for line in f]
@@ -41,7 +41,7 @@ def load_data(dataset_name):
                 data_by_class[cls] = []
             data_by_class[cls].append(text)
 
-    elif dataset_name == 'yelp':
+    elif dataset_name == 'yelp_data':
         # Load Yelp data
         with open('Data/yelp_data/phrase_text.txt', 'r', encoding='utf-8') as f:
             data = [line.strip() for line in f]
