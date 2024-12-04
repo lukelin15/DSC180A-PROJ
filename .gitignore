@@ -1,3 +1,12 @@
 # env
 .env
 
+# Datasets
+Data/NYT-Topics/*
+Data/yelp_data/*
+Data/nyt_data/*
+
+# Untitled Files
+Untitled-1.ipynb
+Untitled-1.html
+FINAL_MAIN.py
